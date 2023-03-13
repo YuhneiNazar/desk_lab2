@@ -14,34 +14,6 @@ int main()
 void fun() {
 	bool p, q, r;
 	int i;
-
-	do
-	{
-		cout << "1 - True 0 - False" << endl;
-		cout << "Enter p: ";
-		cin >> i;
-		cout << endl;
-	} while (i != 1 && i != 0);
-	p = i == 1;
-
-	do
-	{
-		cout << "1 - True 0 - False" << endl;
-		cout << "Enter q: ";
-		cin >> i;
-		cout << endl;
-	} while (i != 1 && i != 0);
-	q = i == 1;
-
-	do
-	{
-		cout << "1 - True 0 - False" << endl;
-		cout << "Enter r: ";
-		cin >> i;
-		cout << endl;
-	} while (i != 1 && i != 0);
-	r = i == 1;
-
 	cout << ("|p|     |q|     |r|     |f|") << endl;
 	for (int h = 0; h < 2; h++) {
 		p = (h == 0) ? false : true;
