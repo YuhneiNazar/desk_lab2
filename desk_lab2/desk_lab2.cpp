@@ -14,7 +14,7 @@ int main()
 void fun() {
 	bool p, q, r;
 	int i;
-	cout << ("|p|     |q|     |r|     |f|") << endl;
+	cout << ("|p|     |q|     |r|     |p v (q -> r)|") << endl;
 	for (int h = 0; h < 2; h++) {
 		p = (h == 0) ? false : true;
 		for (int j = 0; j < 2; j++) {
@@ -25,7 +25,7 @@ void fun() {
 				cout << (p ? "|1|\t" : "|0|\t");
 				cout << (q ? "|1|\t" : "|0|\t");
 				cout << (r ? "|1|\t" : "|0|\t");
-				cout << (result ? "|1|\t" : "|0|\t");
+				cout << (result ? "|      1     |\t" : "|      0     |\t");
 				cout << endl;
 			}
 		}
